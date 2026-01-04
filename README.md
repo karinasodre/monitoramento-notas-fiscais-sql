@@ -11,7 +11,7 @@ Esse projeto foca no acompanhamento e monitoramento de notas fiscais. O objetivo
 ## Arquivos do Projeto
 - `meu_projeto_dados.db`: Base de dados operacional utilizada nos testes.
 - `scripts_monitoramento_v1.sql`: Scripts de auditoria (Ranking de Volume, Fornecedores Únicos e Filtros de Erros).
-- 'refatoracao_e_limpeza.sql': Nessa etapa, criei duas tabelas (Fornecedores e Recebimento) para construir um modelo relacional. Realizei um tratamento de dados com o comando SELECT DISTINCT, pois identifiquei que a base original possuía duplicatas propositais; reduzi o volume de 96 registros brutos para 37 registros únicos e confiáveis.
+- `refatoracao_e_limpeza.sql`: Nessa etapa, criei duas tabelas (Fornecedores e Recebimento) para construir um modelo relacional. Realizei um tratamento de dados com o comando SELECT DISTINCT, pois identifiquei que a base original possuía duplicatas propositais; reduzi o volume de 96 registros brutos para 37 registros únicos e confiáveis.
 
 ## Jornada de Aprendizado
 - **Dia 1:** Configuração de ambiente e importação de base de dados bruta (96 registros brutos tratados para 37 registros únicos).
